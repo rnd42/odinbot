@@ -10,6 +10,10 @@ var mainVoice = "DOOM BATTLE";
 var mainGuild = undefined;
 var voiceConnect = undefined;
 var voiceDis = undefined;
+var PlayerFile = require("./required.js");
+var thePlayer = new PlayerFile.Player();
+var options = thePlayer.options;
+
 const streamOptions = {seek: 0, volume: 0.5};
 
 // First, let's log in
@@ -36,6 +40,28 @@ var commands = [
 			var A = message.content.slice(message.content.indexOf("!snd")+5,message.content.length);
 			message.reply("Playing **"+A+".wav** in voice chat");
 			playSoundClip(A+".wav",1.0);
+		}
+	},
+	
+	// -- ADD YOUTUBE VID
+	{
+		display:"!yt",id:"!yt",description:"Plays a youtube video.",process:function(message){
+			var A = message.content.slice(message.content.indexOf("!yt")+4,message.content.length);
+			thePlayer.addTrack(A,message.channel);
+		}
+	},
+	
+	// -- SKIP VID
+	{
+		display:"!skip",id:"!skip",description:"Skips a youtube video.",process:function(message){
+			thePlayer.skipTrack();
+		}
+	},
+	
+	// -- PLAYLIST COMMAND, SHOWS THE PLAYLIST
+	{
+		display:"!plist",id:"!plist",description:"Shows the video playlist.",process:function(message){
+			message.reply("\n**Here is the current video playlist:**\n"+thePlayer.getTrackList());
 		}
 	},
 	
@@ -685,7 +711,7 @@ function joinVoiceChat() {
 		voiceConnect = connection; 
 		console.log("Connected to voice!");
 		voiceConnect.on("error",function(error){console.log(error)});
-		//playSoundClip("DSSLOP.wav", 1.0);
+		thePlayer.initialize(mainGuild,connection);
 	}).catch(console.log);
 }
 
