@@ -1,0 +1,9 @@
+{
+	"damage": {
+		"max": 800,
+		"min": 600
+	},
+	"icon": "bfg",
+	"message": "fired a BFG 9000 at $MONSTER",
+	"sound": "DSBFG"
+}

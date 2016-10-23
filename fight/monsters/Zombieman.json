@@ -1,0 +1,26 @@
+{
+	"attacks": [
+		{
+			"max": 15,
+			"min": 3,
+			"sounds": ["DSPISTOL"],
+			"sprite": "zombieshoot",
+			"string": "shot at $PLAYER"
+		}
+	],
+	"gibhealth": -20,
+	"health": 20,
+	"sounds": {
+		"death": ["DSPODTH1", "DSPODTH2", "DSPODTH3"],
+		"gib": ["DSSLOP"],
+		"idle": ["DSPOSACT"],
+		"sight": ["DSPOSIT1", "DSPOSIT2", "DSPOSIT3"]
+	},
+	"sprites": {
+		"death": "zombiedie",
+		"gib": "zombiegib",
+		"idle": "zombiedie",
+		"pain": "zombiepain",
+		"sight": "zombiesight"
+	}
+}

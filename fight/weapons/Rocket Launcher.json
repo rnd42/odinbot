@@ -1,0 +1,9 @@
+{
+	"damage": {
+		"max": 288,
+		"min": 148
+	},
+	"icon": "rocketlauncher",
+	"message": "fired a rocket at $MONSTER",
+	"sound": "DSRLAUNC"
+}

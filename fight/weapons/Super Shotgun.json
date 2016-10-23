@@ -1,0 +1,9 @@
+{
+	"damage": {
+		"max": 300,
+		"min": 100
+	},
+	"icon": "ssg",
+	"message": "shot $MONSTER with an SSG",
+	"sound": "DSDSHTGN"
+}

@@ -1,0 +1,9 @@
+{
+	"damage": {
+		"max": 75,
+		"min": 25
+	},
+	"icon": "chaingun",
+	"message": "fired off chaingun rounds at $MONSTER",
+	"sound": "DSPISTOL"
+}

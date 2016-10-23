@@ -1,0 +1,33 @@
+{
+	"attacks": [
+		{
+			"max": 64,
+			"min": 8,
+			"sounds": ["DSSKEPCH"],
+			"sprite": "revmelee",
+			"string": "bitchslapped $PLAYER"
+		},
+		{
+			"max": 60,
+			"min": 20,
+			"sprite": "revranged",
+			"sounds": ["DSSKEATK"],
+			"string": "shot a rocket at $PLAYER"
+		}
+	],
+	"gibhealth": -5000,
+	"health": 300,
+	"sounds": {
+		"death": ["DSSKEDTH"],
+		"gib": ["DSSKEDTH"],
+		"idle": ["DSSKEACT"],
+		"sight": ["DSSKESIT"]
+	},
+	"sprites": {
+		"death": "revdie",
+		"gib": "revdie",
+		"idle": "revidle",
+		"pain": "revidle",
+		"sight": "revsight",
+	}
+}

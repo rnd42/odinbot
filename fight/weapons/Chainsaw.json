@@ -1,0 +1,9 @@
+{
+	"damage": {
+		"max": 150,
+		"min": 100
+	},
+	"icon": "thegreatcommunicator",
+	"message": "stuck a chainsaw in $MONSTER",
+	"sound": "DSSAWHIT"
+}

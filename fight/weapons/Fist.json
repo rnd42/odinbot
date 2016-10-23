@@ -1,0 +1,9 @@
+{
+	"damage": {
+		"max": 20,
+		"min": 2
+	},
+	"icon": "falconpunch",
+	"message": "punched $MONSTER",
+	"sound": "DSPUNCH"
+}

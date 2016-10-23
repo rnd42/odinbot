@@ -1,0 +1,9 @@
+{
+	"damage": {
+		"max": 105,
+		"min": 35
+	},
+	"icon": "boomstick",
+	"message": "shot $MONSTER with a shotgun",
+	"sound": "DSSHOTGN"
+}

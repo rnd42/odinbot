@@ -1,0 +1,26 @@
+{
+	"attacks": [
+		{
+			"max": 80,
+			"min": 70,
+			"sounds": ["DSVILATK"],
+			"sprite": "vileranged",
+			"string": "incinerated $PLAYER"
+		}
+	],
+	"gibhealth": -20,
+	"health": 700,
+	"sounds": {
+		"death": ["DSVILDTH"],
+		"gib": ["DSVILDTH"],
+		"idle": ["DSVILACT"],
+		"sight": ["DSVILSIT"]
+	},
+	"sprites": {
+		"death": "viledeath",
+		"gib": "viledeath",
+		"idle": "vileidle",
+		"pain": "vileidle",
+		"sight": "vilesight"
+	}
+}

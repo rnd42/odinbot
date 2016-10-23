@@ -1,0 +1,9 @@
+{
+	"damage": {
+		"max": 15,
+		"min": 5
+	},
+	"icon": "pistol",
+	"message": "shot $MONSTER with a pistol",
+	"sound": "DSPISTOL"
+}

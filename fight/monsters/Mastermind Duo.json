@@ -1,0 +1,26 @@
+{
+	"attacks": [
+		{
+			"max": 90,
+			"min": 65,
+			"sounds": ["spiderfire"],
+			"sprite": "2spidershoot",
+			"string": "shot barrages at $PLAYER"
+		}
+	],
+	"gibhealth": -5000,
+	"health": 6000,
+	"sounds": {
+		"death": ["DSSPIDTH"],
+		"gib": ["DSSPIDTH"],
+		"idle": ["DSMETAL"],
+		"sight": ["DSSPISIT"]
+	},
+	"sprites": {
+		"death": "2spiderdie",
+		"gib": "2spiderdie",
+		"idle": "2spideridle",
+		"pain": "2spideridle",
+		"sight": "2spidersight"
+	}
+}

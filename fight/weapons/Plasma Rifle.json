@@ -1,0 +1,9 @@
+{
+	"damage": {
+		"max": 280,
+		"min": 240
+	},
+	"icon": "plasmagun",
+	"message": "fired some plasma at $MONSTER",
+	"sound": "DSPLASMA"
+}

@@ -1,0 +1,9 @@
+{
+	"damage": {
+		"max": 450,
+		"min": 400
+	},
+	"icon": "unmaker",
+	"message": "shot $MONSTER with an Unmaker",
+	"sound": "DSUNMAKE"
+}

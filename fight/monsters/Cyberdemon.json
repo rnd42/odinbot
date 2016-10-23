@@ -1,0 +1,26 @@
+{
+	"attacks": [
+		{
+			"max": 80,
+			"min": 20,
+			"sounds": ["DSRLAUNC"],
+			"sprite": "cybershoot",
+			"string": "shot three rockets at $PLAYER"
+		}
+	],
+	"gibhealth": -5000,
+	"health": 4000,
+	"sounds": {
+		"death": ["DSCYBDTH"],
+		"gib": ["DSCYBDTH"],
+		"idle": ["DSHOOF"],
+		"sight": ["DSCYBSIT"]
+	},
+	"sprites": {
+		"death": "cyberdie",
+		"gib": "cyberdie",
+		"idle": "cyberidle",
+		"pain": "cyberpain",
+		"sight": "cybersight"
+	}
+}

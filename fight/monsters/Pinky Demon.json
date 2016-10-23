@@ -1,0 +1,26 @@
+{
+	"attacks": [
+		{
+			"max": 40,
+			"min": 4,
+			"sounds": ["DSSGTATK"],
+			"sprite": "demonbite",
+			"string": "bit $PLAYER"
+		}
+	],
+	"gibhealth": -5000,
+	"health": 150,
+	"sounds": {
+		"death": ["DSSGTDTH"],
+		"gib": ["DSSLOP"],
+		"idle": ["DSPOSACT"],
+		"sight": ["DSSGTSIT"]
+	},
+	"sprites": {
+		"death": "demondie",
+		"gib": "demondie",
+		"idle": "demonidle",
+		"pain": "demonpain",
+		"sight": "demonsight"
+	}
+}
