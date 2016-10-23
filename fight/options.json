@@ -1,0 +1,35 @@
+// --==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==
+// -- D I S C O R D   B A T T L E   S I M U L A T O R --
+// Coded by Zedek the Plague Doctor, simple turn-based "battle" simulator
+//
+// This text file houses all of the various options for the battle simulator, change them to your liking
+// --==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==
+
+// -- ALL OF THE VARIOUS THINGS WE'RE GOING TO USE
+{
+
+	// -- CHANCES
+	"findChance": 0.5,
+	"wepChance": 0.25,
+	"idleChance": 0.25,
+
+	"GAMENAME": "DOOM BATTLE",	 // -- THE ACTUAL NAME OF THE GAME
+
+	"STR_CUBE": "CUBE",	 // -- WHAT SPAWNS THE MONSTERS
+	"STR_PACKS": "backpacks",	 // -- WHAT ARE GIVEN TO THE PLAYERS
+	"STR_CUBELONG": "boss cube",	 // -- WHAT APPEARS OUT OF NOWHERE
+
+
+	// -- DIFFERENT ACTIONS --
+
+
+	"backpackTime": 3,
+	"attackEndTime": 3,
+
+	"spawnTime": 5,	 // How long it takes in seconds to "spawn" a monster...												
+	"missChance": 0.5,	 // The chance of missing a dodged player, this will be 50%
+
+	// -- ALL OF THE MONSTERS THAT CAN SHOW UP --
+	"monsterURL": "https://dl.dropboxusercontent.com/u/13049328/vgpimages/",	 // All images are stored in this folder
+	"spawnImage": "bosscube" // The spawn image to use for the cube
+}
